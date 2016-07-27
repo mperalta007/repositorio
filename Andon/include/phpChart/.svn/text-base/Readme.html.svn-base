@@ -1,0 +1,41 @@
+<HTML>
+	<HEAD>
+		<TITLE>phpChart Readme</TITLE>
+	</HEAD>
+	<BODY>
+    
+<h3>phpChart User Tips</h3>
+
+<ul>
+<li>It is strongly recommended to leave doctype declaration <strong>&lt;!DOCTYPE HTML&gt;</strong> right before tag &lt;HTML&gt; to force browser into HTML5 Standards mode.</li>
+<li>Each PHP chart must have an unique id associating to corresponding DIV as the draw area. It's set as the 2nd parameter in <a href="/phpChart/docs/output/C_PhpChartX___construct@@@@@.html">phpChart constructor</a>.</li>
+<li>Look and feel, and most of the cosmetics can also be controlled using CSS .e.g .jqplot-point-label</li>
+<li>Most of functions parameters are array.</li>
+<li>Except numbers, all properites should be surrounded by double or single quotes</li>
+<li>Plugins without "Renderer" suffix should be loaded using add_plugins method. e.g. add_plugins(array("highlighter", "cursor"));</li>
+<li>Different renderer has different renderer options(rendererOptions).</li>
+<li>phpChart automatically includes any required plugin files only once on a single page regardless how many times it is used. This prevents javascript conflicts.</li>
+<li>When loading renderer, use "plugin::" prefix to indicate a plugin used.</li>
+<li>When passing user defined custom javascript function to phpChart, use "js::" prefix</li>
+<li>To assign options to a renderer, generally use the “rendererOptions” in which each plugin may add its own options attribute.</li>
+<li>The default label renderer creates labels in DIV tags, which allows full CSS control over every label.</li>
+<li>Use Canvas Renderers to replace the default label renderer to draw labels onto canvas elements to support advanced featrues such as rotated text. However, it loses CSS support.</li>
+<li>Tick options(tickOptions) are only used by Axes object. A tick represents a data point.</li>
+<li>Some renderer are designed to represent 3D dimensional data such as Bubble Chart.</li>
+<li>for Date Axes render plugin, it's recommended to specify both date and time.</li>
+<li>Cursor plugin also enables plot zooming functionality</li>
+<li>Built-in data renderer(dataRenderer) allows data from external JSON source such as retrieving from a external URL through AJAX.</li>
+<li>Some plugins can trigger events using bind_js() function. e.g. <a href="http://www.jqplot.com/docs/files/plugins/jqplot-donutRenderer-js.html">http://www.jqplot.com/docs/files/plugins/jqplot-donutRenderer-js.html</a></li>
+<ul>
+	<li>jqplotDataMouseOver	- triggered when user mouseing over a slice.
+	<li>jqplotDataHighlight	- triggered the first time user mouses over a slice, if highlighting is enabled.
+	<li>jqplotDataUnhighlight -	triggered when a user moves the mouse out of a highlighted slice.
+	<li>jqplotDataClick	- triggered when the user clicks on a slice.
+	<li>jqplotDataRightClick -	tiggered when the user right clicks on a slice if the "captureRightClick" option is set to true on the plot.
+</ul>
+<li>canvasTextRenderer is the only renderer that has no renderer options but ends with 'Renderer' suffix</li>
+<li>Custom js should be added before ending &lt;body&gt; tag between &lt;script&gt; tags; or can be added through phpChart add_custom_js() method(less convenient).</li>
+<li>All js files should be named in lower case so they works on both *nix and Windows system</li>
+</ul>
+	</BODY>
+</HTML

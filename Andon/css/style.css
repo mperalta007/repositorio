@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Oct-2014, 07:19:41
+    Author     : miguel
+*/
+body{
+  width: 97%;
+  height: 97%;
+  font-family: Arial;
+ background: #000000;
+  
+}
+
+//div principal donde estan todos
+
+
+//div donde estan las primeras tablas
+.isResizable1 {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: .5em;
+    background: #18dd3f;
+    font-size: 2em;
+    width: 100%;
+    height: 90%;  
+    font-family: Arial bold;
+}
+        
+.div2{
+    overflow-x:auto;
+    width: 97%;
+    height:30%;
+    margin: .8em;
+}        
+       
+.tablapr1{
+    border-collapse:  collapse;
+    width:100%; 
+    margin-left:.7em;
+    border-color: #FB9D00;
+    font-size: 2em;
+    height: 5%;
+    text-align: left;
+}
+
+.tablatd{
+   table-layout: fixed;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, bold;
+    background:  #000000;
+        
+}
+.tablatd1{
+    table-layout: fixed;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, bold;
+   
+        
+}
+
+.estable{   
+    border-collapse: separate;
+     border-spacing:  20px;
+    border: #000000 solid 2px;
+    font-size: 2em;
+    font: bold sans-serif;
+    text-align: center;
+    height:100%;
+    overflow-x: scroll;
+    width: 200%;
+    table-layout: fixed;
+   
+   }
+   .estableonly{   
+    border-collapse: separate;
+     border-spacing:  20px;
+    border: #000000 solid 2px;
+    font-size: 2em;
+    font: bold sans-serif;
+    text-align: center;
+    height:100%;
+   
+    width: 90%;
+    table-layout: fixed;
+   
+   }
+
+.tablapr{
+    
+    border-collapse:  collapse;
+    width:98%; 
+    height:60%;
+    border: solid #FB9D00;
+   table-layout: fixed;
+    } 
+
+.tablapr tr td {
+    padding-left:.2em;
+    padding-right:.2em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    border-color: #FB9D00;
+    font-size: 2em;      
+    
+}
+          .tdnegro1{
+           text-align: center;
+           font-weight: bold;
+           border:none;
+    
+            
+        }
+         .tdnegro2{
+           text-align:left;
+            background-color:  #000000; 
+            border-left: none;
+            font-size: 1em;
+           
+   
+        }
+        .tdverde{
+           background-color:  #18dd3f; 
+           text-align: right;
+            padding:0em;
+            border-color: #FB9D00;
+            font-size: .2em;
+            margin: 0;
+          
+           
+        }
+              
+  
+        .tdverde1 {
+           text-align:center;
+           border: none;
+           font-weight: bold;
+           font-family: Arial bold;
+          
+                
+        }
+        .tdamarillo{
+             background-color:  #ffde10; 
+             text-align: center;
+             width:5%;
+           
+             
+        }
+        .tdazul{
+             background-color:  #0076ba; 
+             text-align: center;
+             width:5%;
+        }
+        .tdverder{
+             background-color:  #18dd3f; 
+              text-align: center;
+              width:5%;
+            
+        }
+        .tdrojo{
+             background-color:  #ff001a; 
+             text-align: center;
+             width:5%;
+        }
+
+       

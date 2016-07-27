@@ -1,0 +1,425 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 20, 2015, 3:27:04 PM
+    Author     : mperalta
+*/
+>html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+.loginbox {
+        width: 250px;
+	background-color: #F1F3F5;
+	padding: 15px;
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+}
+
+.pizzaron{
+    background: #FFFFFF;
+    font-family: Arial;
+      
+}
+
+
+.table_general{
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+.table_static{
+  
+}
+.table_buttons{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.div_static{
+    width: 100%;
+    height: 100%;
+}
+.div_iframe{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display:block!important;
+}
+
+
+.td_header{
+    height: 5%;
+      
+}
+.td_iframe{
+   
+    width: 60%;
+  
+}
+.td_static{
+   
+    height: 40%;
+   
+}
+
+.td_buttons{   
+  
+   
+}
+.td_buton{
+    width: 90%;
+    height: 90%;
+ text-align: center;
+}
+
+.days{
+  cursor: pointer;
+    padding: 10px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+background: #CCCCCC;
+width: 85%;
+height: 90%;
+box-shadow: 10px 10px 5px #888888;
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+
+.zoomIt{
+display:block!important;
+
+
+}
+
+.days:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+
+.incumpli{
+    width: 100%;
+    font-size: 1em; 
+    border: none;
+}
+
+.table_plan {
+	
+	box-shadow: 10px 10px 5px #888888;
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+
+table.adminlist {
+	background-color: #FFFFFF;
+	/* margin: 5px;*/
+	padding: 0px;
+	border: 1px solid #ddd;
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.adminlist th {
+	margin: 0px;
+	padding: 6px 4px 2px 4px;
+	height: 25px;
+	background: url(/images/background.jpg);
+	background-repeat: repeat;
+	font-size: 14px;
+	color: #000;
+	
+}
+
+table.adminlist th.title {
+	text-align: left;
+}
+
+table.adminlist th a:link, table.adminlist th a:visited {
+	color: #c64934;
+	text-decoration: none;
+}
+
+table.adminlist th a:hover {
+	text-decoration: underline;
+}
+
+table.adminlist tr.row0 {
+	background-color: #F1F1F1;
+	
+}
+
+table.adminlist tr.row1 {
+	background-color: #FFFFFF;
+	
+}
+
+table.adminlist td {
+	border-bottom: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	padding: 4px;
+        font-size: 16px;
+        color: #000;     
+        font-weight: bold;
+}
+table.adminlist tr.row0:hover {
+	background-color: #f1f1f1;
+}
+table.adminlist tr.row1:hover {
+	background-color: #f1f1f1;
+}
+table.adminlist td.options {
+	background-color: #ffffff;
+	font-size: 8px;
+}
+.formDiv {
+	 width: 200px;
+/*	 height: 300px;  */
+	border: thin solid #767676; 
+/*	border-right-width: medium; 
+	border-right-color: #767676; 
+	border-bottom-width: medium; 
+	border-bottom-color: #767676; 
+*/      position: absolute;
+        left: 50%;
+/*	left: 5px;
+	top: 5px; */
+	
+	visibility: hidden; 
+	background-color: #F1F3F5;
+	/*overflow: auto;  */
+}
+
+.inputcum{
+    width: 100%;
+    font-size: 3em;
+    border: none;
+    
+}
+.inputcuml{
+    width: 100%;
+    font-size: 1em;
+    border: none;
+   
+}
+
+
+
+.certification2{
+    
+ border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+border: 0px solid #000000;
+background-color: #FB9D00;
+width:822px;
+height:150px; 
+float: left;
+
+        
+}
+.certification1{
+    
+ border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border: 0px solid #000000;
+ background-image: url("/images/line1.png");
+ background-repeat: no-repeat;
+width:900px;
+height:58px;          
+float: left;
+}
+
+.bronce{
+ 
+background-image: url("/images/bronce.png");
+width: 100px;
+height: 101px;
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+  cursor: pointer;
+}
+.triangulo_sup {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000;
+}
+.bronce:hover{
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2)
+  
+}
+
+.silver{
+ 
+background-image: url("/images/silver.png");
+width: 100px;
+height: 101px;
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+
+.silver:hover{
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2)
+}
+.gold{
+ 
+background-image: url("/images/gold.png");
+width: 100px;
+height: 101px;
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+background-repeat: no-repeat;
+}
+.gold:hover{
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2)
+}
+
+.blanc{
+background-image: url("/images/blanc.png");
+width: 100px;
+height: 101px;
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+background-repeat: no-repeat;
+
+}
+
+.blanc:hover{
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2)
+}
+
+.circulo {
+     width: 100%;
+     height: 100%;
+     border: 2px solid #000000;
+     font-size: .5em;
+     
+      
+}
+
+.activo {     
+   background: #888888;    
+   width: 100%;
+   height: 100%;
+    border: none;
+    font-size:.8em;
+}
+
+.pasivo {  
+     background: #ffffff;
+     width: 100%;
+     height: 100%;
+     border: none;
+     font-size:.8em;
+         
+}
+
+input.date {
+	width: 150px;
+	color: #000;
+}
+
+.triangulo {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 20px 20px 20px;
+border-color: transparent transparent #ff0033 transparent;
+ font-size: 1em;
+}
+.trapecio1 {
+    width: 40px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid #ff0033;
+    font-size: 1em;
+}
+.trapecio2 {
+   width: 100px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid #FB9D00;
+    font-size: 1em;
+}
+.trapecio3 {
+    width: 160px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid #ffcc66;
+    font-size: 1em;
+}
+.trapecio4 {
+    width: 220px;
+    height:0px;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid #ffcc66;
+    font-size: 1em;
+}
